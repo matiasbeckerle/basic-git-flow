@@ -35,3 +35,11 @@ _Personal note: I like to use lower case and dashes (instead of spaces) as much 
 John [commits](https://git-scm.com/docs/git-commit) whatever his is working on.
 
 Maybe John wants to share his latest changes with her teammate Abigail wich is working remotely. What he needs to do is to [push](https://git-scm.com/docs/git-push) his work. This also serves as backup on the cloud.
+
+### Step 4: creating a pull request
+
+John finishes his work. Ensures everything is working and properly tested. At this moment he needs to [create a pull request](https://blog.alphasmanifesto.com/2016/07/11/how-to-create-a-good-pull-request/) in order to obtain feedback from all the members of the team.
+
+A good idea before creating a pull request is to [rebase](https://git-scm.com/docs/git-rebase) all the changes and then push it to the server. Think about the following: while John was working on that "memory leak fix" some other members were also working and integrating modifications into the main branch `develop`. Rebase is like the operation of saying: "ok Git, forget about everything and apply every single of my commits after the latest changes on `develop` because my codebase is outdated".
+
+After doing a rebase & push to the server John can go to the git server UI and [create a pull request](https://blog.alphasmanifesto.com/2016/07/11/how-to-create-a-good-pull-request/).
