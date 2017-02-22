@@ -28,7 +28,7 @@ For the new branch the naming could defer between projects. IMHO it doesn't matt
 - `johndoe/fix/20170221/PROJECT-123/fix-memory-leak`. It contains almost everything right? Well... actually user and date is available through Git if you want to ommit them.
 - `fix-memory-leak`. When there is no project management tool or is a task hard to clasify.
 
-_Personal note: I like to use lower case and dashes (instead of spaces) as much as I can (except when tied to a project management tool and I need to refer a ticket ID)._
+_Note: I like to use lower case and dashes (instead of spaces) as much as I can (except when tied to a project management tool and I need to refer a ticket ID)._
 
 ### Step 3: working (the fun part)
 
@@ -54,4 +54,6 @@ The important thing about this step is that everyone in the team feels right abo
 
 ### Step 6: merge
 
-Once that the pull request is approved, John or the technical lead could [merge](https://git-scm.com/docs/git-merge) into `develop` the new set of changes. Before proceeding with the merge a good advice is to performe another rebase because between the moment that the pull request was created until code is merged could have gone some time and other member probably merged more stuff. 
+Once that the pull request is approved, John or the technical lead could [merge](https://git-scm.com/docs/git-merge) into `develop` the new set of changes. Before proceeding with the merge a good advice is to performe another rebase because between the moment that the pull request was created until code is merged could have gone some time and other member probably merged more stuff.
+
+_Note: who is in charge of merging the pull request could vary from team to team. At some teams, developers have full autonomy for merging the code themselves after approval. In others, technical lead or the person responsible for technical stuff is the one who merges the changes._
