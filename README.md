@@ -43,3 +43,11 @@ John finishes his work. Ensures everything is working and properly tested. At th
 A good idea before creating a pull request is to [rebase](https://git-scm.com/docs/git-rebase) all the changes and then push it to the server. Think about the following: while John was working on that "memory leak fix" some other members were also working and integrating modifications into the main branch `develop`. Rebase is like the operation of saying: "ok Git, forget about everything and apply every single of my commits after the latest changes on `develop` because my codebase is outdated".
 
 After doing a rebase & push to the server John can go to the git server UI and [create a pull request](https://blog.alphasmanifesto.com/2016/07/11/how-to-create-a-good-pull-request/).
+
+### Step 5: code review & refining
+
+While Abigail was working on feature X a new pull request shows up. She might be busy at that time so probably opens the pull request at some point and [starts doing a code review](https://blog.alphasmanifesto.com/2016/11/17/how-to-perform-a-good-code-review/).
+
+Depending on the code reviews John might push more changes or not.
+
+The important thing about this step is that everyone in the team feels right about the upcoming changes to be integrated in the codebase, that everything works as expected.
