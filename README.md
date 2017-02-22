@@ -51,3 +51,7 @@ While Abigail was working on feature X a new pull request shows up. She might be
 Depending on the code reviews John might push more changes or not.
 
 The important thing about this step is that everyone in the team feels right about the upcoming changes to be integrated in the codebase, that everything works as expected.
+
+### Step 6: merge
+
+Once that the pull request is approved, John or the technical lead could [merge](https://git-scm.com/docs/git-merge) into `develop` the new set of changes. Before proceeding with the merge a good advice is to performe another rebase because between the moment that the pull request was created until code is merged could have gone some time and other member probably merged more stuff. 
