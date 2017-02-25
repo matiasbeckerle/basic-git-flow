@@ -4,7 +4,7 @@ An attempt to describe a basic workflow using Git.
 
 ## Disclaimer
 
-I'm not inventing anything here. There are way too many different Git workflows that covers different team's nececities. These steps are the most basic explanation I can think of for any who want to start working with Git. There are edge cases, there is unexplained stuff. I just want to keep it simple.
+I'm not inventing anything here. There are way too many different Git workflows that covers different team's necessities. These steps are the most basic explanation I can think of for anyone who want to start working with Git. There are edge cases, there is unexplained stuff. I just want to keep it simple.
 
 ## Before start
 
